@@ -74,7 +74,7 @@
 
 This pattern is useful when you want to ensure consistency across your application by managing a single instance of a class.
 
-While the way we used earlier is common, you can also achieve a Singleton using different approaches. Here are a few alternatives:
+### While the way we used earlier is common, you can also achieve a Singleton using different approaches. Here are a few alternatives:
 
 ### 1. **Lazy Initialization Singleton**
    - This method creates the instance only when it's needed (lazy loading).
