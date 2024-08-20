@@ -1,15 +1,15 @@
-### 1. **What is a Singleton?**
+### **What is a Singleton?**
    - A Singleton is a design pattern that ensures a class has only one instance and provides a global point of access to it.
    - It’s useful when you need exactly one object to coordinate actions across the system (e.g., logging, database connections).
 
-### 2. **Private Constructor**
+### **Private Constructor**
    ```dart
    Singleton._privateConstructor();
    ```
    - **Why?**: We made the constructor private by prefixing it with an underscore (`_`). This restricts the creation of new instances from outside the class.
    - **Purpose**: To prevent other parts of the code from using `new Singleton()` or `Singleton()` to create new instances.
 
-### 3. **Static Instance**
+### **Static Instance**
    ```dart
    static final Singleton _instance = Singleton._privateConstructor();
    ```
@@ -20,7 +20,7 @@
      - `static`: The variable is tied to the class, not to an instance, meaning it's shared across all instances of the class.
      - `final`: Once the instance is assigned, it cannot be changed, ensuring that there’s only one instance.
 
-### 4. **Factory Constructor**
+### **Factory Constructor**
    ```dart
    factory Singleton() {
      return _instance;
@@ -32,7 +32,7 @@
    - **Key Points**:
      - `factory`: A special constructor in Dart that doesn't always create a new instance of the class but can return an existing one.
 
-### 5. **Method Example**
+### **Method Example**
    ```dart
    void showMessage() {
      print('Singleton instance called!');
@@ -41,7 +41,7 @@
    - **Why?**: This method is just an example to show that you can define functionality within the Singleton class.
    - **Purpose**: This method demonstrates how you can call methods on the Singleton instance.
 
-### 6. **Usage in the Main Function**
+### **Usage in the Main Function**
    ```dart
    void main() {
      var singleton1 = Singleton();
