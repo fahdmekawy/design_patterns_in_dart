@@ -1,5 +1,3 @@
-Certainly! Let's break down the Singleton pattern example in Dart step by step, explaining why we implemented it this way.
-
 ### 1. **What is a Singleton?**
    - A Singleton is a design pattern that ensures a class has only one instance and provides a global point of access to it.
    - It’s useful when you need exactly one object to coordinate actions across the system (e.g., logging, database connections).
