@@ -48,7 +48,7 @@ Design patterns are typically categorized into three main types: **Creational**,
 ---
 
 ### **Common Design Patterns in Practice**
-- **Model-View-Controller (MVC)**: Often used in web development to separate concerns, this pattern splits the application into the Model (data), View (UI), and Controller (business logic).
+- **Model-View-Controller (MVC)**: Used to separate concerns, this pattern splits the application into the Model (data), View (UI), and Controller (business logic).
 - **Repository Pattern**: Used in data access layers to provide a consistent API for data storage, often combined with the Unit of Work pattern.
 - **Dependency Injection (DI)**: A pattern where objects are passed dependencies, usually through constructors or setters, rather than creating them internally. This pattern is widely used in frameworks to manage object lifecycles.
 
