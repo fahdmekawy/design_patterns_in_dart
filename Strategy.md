@@ -1,3 +1,5 @@
+### **What is the Strategy Design Pattern?**
+
 The **Strategy Design Pattern** is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. This pattern enables a class's behavior to be selected at runtime. The strategy pattern is typically used to create a set of algorithms, encapsulate each one in a separate class, and make them interchangeable within the original context object.
 
 ### Key Concepts
